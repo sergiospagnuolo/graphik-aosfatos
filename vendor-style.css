@@ -1,10 +1,7 @@
-
-/* Properties used here should be taken from this list: http://www.w3.org/TR/SVG/propidx.html */
-
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
+@import url('https://fonts.googleapis.com/css?family=Neuton:400,400i,700');
 
 svg {
-    font-family: 'Crimson Text', Times, serif;
+    font-family: 'Neuton', Times, serif;
 }
 
 svg #title {
@@ -16,6 +13,7 @@ svg #title {
 svg #subtitle {
     fill: #666;
     font-size: 15px;
+    padding: 6px 0 10px;
 }
 
 svg #footline {
@@ -60,38 +58,38 @@ svg .line-chart #plot path {
 
 svg .bar-chart #plot .bar0 rect,
 svg #legend .group0 circle {
-    fill: #05a6ff;
+    fill: #faa61a;
 }
 
 svg .line-chart #plot path.line0 {
-    stroke: #05a6ff;
+    stroke: #faa61a;
 }
 
 svg .bar-chart #plot .bar1 rect,
 svg #legend .group1 circle  {
-    fill: #fff200;
+    fill: #010100;
 }
 
 svg .line-chart #plot path.line1 {
-    stroke: #fff200;
+    stroke: #010100;
 }
 
 svg .bar-chart #plot .bar2 rect,
 svg #legend .group2 circle {
-    fill: #ff4f05;
+    fill: #8e8b86;
 }
 
 svg .line-chart #plot path.line2 {
-    stroke: #ff4f05;
+    stroke: #8e8b86;
 }
 
 svg .bar-chart #plot .bar3 rect,
 svg #legend .group3 circle {
-    fill: #8fff29;
+    fill: #754a03;
 }
 
 svg .line-chart #plot path.line3 {
-    stroke: #8fff29;
+    stroke: #754a03;
 }
 
 svg .bar-chart #plot .bar4 rect,
@@ -105,11 +103,11 @@ svg .line-chart #plot path.line4 {
 
 svg .bar-chart #plot .bar5 rect,
 svg #legend .group5 circle {
-    fill: #05ffb4;
+    fill: #ffa0ab;
 }
 
 svg .line-chart #plot path.line5 {
-    stroke: #05ffb4;
+    stroke: #ffa0ab;
 }
 
 svg .bar-chart #plot text {
