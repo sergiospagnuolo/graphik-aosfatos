@@ -70,12 +70,12 @@ function GraphikChart(display, layout) {
         var credit = footer.append('text')
             .attr('id', 'credit')
             .attr('dy', '1em')
-            .text(config.credit)
+            .text('Aos Fatos ' + config.credit)
 
         var source = footer.append('text')
             .attr('id', 'source')
             .attr('dy', '1em')
-            .text(config.source)
+            .text('Fonte: ' + config.source)
 
         source.attr('x', layout.width - layout.padding.left - layout.padding.right - source.node().getBBox().width)
 
