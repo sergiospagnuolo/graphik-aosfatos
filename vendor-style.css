@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Neuton:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 
 svg {
-    font-family: 'Neuton', Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 svg #title {
     fill: #222;
-    font-size: 22px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
 }
