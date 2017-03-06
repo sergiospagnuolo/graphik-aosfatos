@@ -91,11 +91,11 @@ svg .line-chart #plot path.line2 {
 
 svg .bar-chart #plot .bar3 rect,
 svg #legend .group3 circle {
-    fill: #e1e2e1;
+    fill: #a7000c;
 }
 
 svg .line-chart #plot path.line3 {
-    stroke: #e1e2e1;
+    stroke: #a7000c;
 }
 
 svg .bar-chart #plot .bar4 rect,
